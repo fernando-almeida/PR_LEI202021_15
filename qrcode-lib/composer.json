@@ -1,0 +1,14 @@
+{
+    "name": "geodouro/qrcode-lib",
+    "description": "QR Code generator/decoder for Geodouro apps",
+    "type": "library",
+    "require": {
+        "endroid/qr-code": "^4.1",
+        "khanamiryan/qrcode-detector-decoder": "1.0.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeoDouro\\QrCodeLib\\": "src/"
+        }
+    }
+}

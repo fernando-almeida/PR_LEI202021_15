@@ -1,0 +1,24 @@
+{
+    "name": "geodouro/qrcode-cli",
+    "description": "Geodouro QRCore test CLI",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../qrcode-lib",
+            "options": {
+            "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3",
+        "geodouro/qrcode-lib": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeoDouro\\QrCodeCli\\": "src/",
+            "GeoDouro\\QrCodeCli\\Tests\\": "test/"
+        }
+    }
+}
